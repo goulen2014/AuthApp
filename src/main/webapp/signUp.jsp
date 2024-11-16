@@ -18,7 +18,7 @@
 	<div class="container">
 		<div class="left"></div>
 		<div class="right">
-			<form>
+			<form action="signup" method="post">
 				<div class="formBox">
 					<p>Name</p>
 					<input type="text" name="name" placeholder="Enter your name">
@@ -27,7 +27,7 @@
 					<p>Password</p>
 					<input type="password" name="pwd" placeholder="Your password">
 					<p>Repeat Password</p>
-					<input type="password" name="pwd" placeholder="Your password">
+					<input type="password" name="repeatpwd" placeholder="Your password">
 					<input type="submit" name="login" value="Sign Up">
 					<input type="reset" name="cancel" value="Cancel"> 
 					<br><a
